@@ -1,69 +1,81 @@
-html, body, header { height: 100%; }
+* { box-sizing: border-box; }
+
 body {
   color: #303030;
-  font: 18px/28px Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-.row {
-  width: 768px;
+.ribbon {
+  background-color: #0B2161;
+  color: white;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px 15px;
+    position: fixed;
+    bottom: 0%;
+    right: 30px;
+
+}
+
+h1 { font-size: 42px; }
+h2 {
+  font-size: 32px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 40px;
+}
+h3 { font-size: 28px; }
+
+.container {
+  width: 992px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 60px;
 }
 
-header {
-  background: url('https://s3.amazonaws.com/makeitreal/creativity-post-assets/post2-bg.jpg') no-repeat 50%;
-  background-size: cover;
-  color: white;
+.left {
+  display: inline-block;
+  width: 65%;
 }
-header > div {
-  position: absolute;
-  top: 50%;
-  width: 100%;
+
+.right {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
 }
-header h1 {
-  line-height: 1.2;
-  text-shadow: -2px 2px 5px #000;
-  margin-bottom: 10px;
+
+nav {
+  margin: 40px 0 0 40px;
+  padding: 20px 20px 10px;
+  position: fixed;
 }
-header p {
-  font-size: 21px;
-  font-weight: 300;
-  text-shadow: -1px 1px 5px #000;
+
+nav a {
+  display: block;
+  color: #4183c4;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 0 10px 10px;
+}
+
+.markdown { border: 1px solid #ddd; }
+
+pre.markdown {
+  background: whiteSmoke;
+  font-size: 16px;
+  white-space: pre-wrap;
+  padding: 20px;
   margin: 0;
 }
 
-.details { 
-  margin-top: 40px; 
-  color: #666;
-}
-.details-author { 
-  float: left;
-  font-size: 21px;
-}
-.details-author img {
-  width: 50px;
-  border-radius: 25px;
-  vertical-align: middle;
-  margin-right: 15px;
-}
-.details-date {
-  float: right;
-  margin-top: 10px;
+div.markdown {
+  font-size: 18px;
+  margin: -1px 0 30px;
+  padding: 10px 20px;
 }
 
-article.first { margin-top: 140px; }
-article p { margin-bottom: 28px; }
-blockquote {
-  color: #666;
-  font-style: italic;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.video {
-  background: black;
-  text-align: center;
-  padding: 40px 0 30px;
-  margin: 60px 0;
-}
+div.markdown h1 { font-size: 36px; }
+div.markdown h2 { font-size: 27px; border: none; }
+div.markdown h3 { font-size: 21px; }
