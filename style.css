@@ -5,6 +5,7 @@ body{
 }  
 header{
   border: 2px solid red;
+  padding: 10px ;
 }
 .menu-nav ul li{
   display: inline-block;
