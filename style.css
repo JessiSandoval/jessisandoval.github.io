@@ -2,6 +2,7 @@ body{
   padding: 0px;
   margin: 0px;
   text-align: center;
+  background-image: url(http://fotos.subefotos.com/5068b381a756b968641fc81374b87b08o.jpg);
 }  
 header{
   border: 2px solid red;
@@ -32,3 +33,4 @@ ul li .activo:hover {
   background: #FE9A2E;
   color:Yellow;
 }
+
