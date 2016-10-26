@@ -5,11 +5,8 @@ body{
   background-image: url(https://k37.kn3.net/D65DF3CD5.jpg);
 }  
 header{
-  border-style:dotted;
-  border-width: 2px;
-  border-color: #CEF6F5;
-
-  padding: 10px ;
+   padding: 10px ;
+   color:#FFFFFF;
 }
 .menu-nav ul li{
   display: inline-block;
@@ -17,7 +14,7 @@ header{
 
 ul li a{
   color: #0FE1FA; 
-  padding: 10px;
+  padding: 10px 10px;
   text-decoration:  none;
   
 }
@@ -41,3 +38,19 @@ ul li .activo:hover {
   
 }
 
+section {
+  text-align: left;
+  color: #FFFFFF;
+  margin: 5px 70px 25px 70px;
+  border-width: 1px;
+  border-color: #CEF6F5;
+  border-style: solid;
+  border-radius: 5px;
+
+}
+aside{
+  color:#FFFFFF;
+  text-align: center;
+  margin: 5px 70px 25px 70px;
+  border:1px solid #FFFFFF;
+}
