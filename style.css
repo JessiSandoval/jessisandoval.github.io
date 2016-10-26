@@ -38,19 +38,40 @@ ul li .activo:hover {
   
 }
 
-section {
-  text-align: left;
+.contenedor{
   color: #FFFFFF;
-  margin: 5px 70px 25px 70px;
-  border-width: 1px;
-  border-color: #CEF6F5;
-  border-style: solid;
+  margin: 10px 80px 40px 80px;
+  border:1px solid #CEF6F5;
   border-radius: 5px;
-
+  float: left;
+  padding:25px; 
+}
+article{
+  width: 900px;
+  padding: 5px;
+  text-align: center;
 }
 aside{
   color:#FFFFFF;
   text-align: center;
   margin: 5px 70px 25px 70px;
-  border:1px solid #FFFFFF;
+  float: right;
+  width: 600px;
+}
+.linea{
+  border:1px dotted #CEF6F5;
+  width: 700px;
+   margin: 10px 80px 40px 80px;
+}
+.img-html{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #FE642E;
+  padding: 10px;
+}
+.parrafo-html {
+  text-align: justify;
+}
+.parrafo-html h2{
+  color:#81F7F3;
 }
